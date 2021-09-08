@@ -9,7 +9,7 @@ from .middleware import construct_flashbots_middleware
 from .flashbots import Flashbots
 from .provider import FlashbotProvider
 
-DEFAULT_FLASHBOTS_RELAY = "https://relay.flashbots.net"
+DEFAULT_FLASHBOTS_RELAY = "https://relay-goerli.flashbots.net"
 
 
 def flashbot(
